@@ -1,8 +1,8 @@
 [project]
 name = "open-webui"
-description = "Starrina WebUI"
+description = "Starrina Web"
 authors = [
-    { name = "Timothy Jaeryang Baek", email = "tim@openwebui.com" }
+    { name = "lingyicute", email = "li@92li.us.kg" }
 ]
 license = { file = "LICENSE" }
 dependencies = [
