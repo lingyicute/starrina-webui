@@ -208,15 +208,6 @@
 						<button
 							class=" text-xs text-center text-gray-800 dark:text-gray-400 rounded-full px-4 py-0.5 bg-gray-100 dark:bg-gray-850"
 							on:click={async () => {
-								const url = await getGravatarUrl($user.email);
-
-								profileImageUrl = url;
-							}}>{$i18n.t('Use Gravatar')}</button
-						>
-
-						<button
-							class=" text-xs text-center text-gray-800 dark:text-gray-400 rounded-lg px-2 py-1"
-							on:click={async () => {
 								profileImageUrl = '/user.png';
 							}}>{$i18n.t('Remove')}</button
 						>

@@ -207,7 +207,7 @@
 								{$i18n.t('Active Users')}:
 							</span>
 							<span class=" font-semibold">
-								{$activeUserIds?.length}
+								1
 							</span>
 						</div>
 					</div>
