@@ -1055,7 +1055,7 @@
 	"You have shared this chat": "此对话已经分享过",
 	"You're a helpful assistant.": "你是一个有帮助的助手。",
 	"You're now logged in.": "欢迎回来～",
-	"Your account status is currently pending activation.": "你的账号当前状态为待激活。",
+	"Your account status is currently pending activation.": "新注册的账号默认状态为待激活。",
 	"Your entire contribution will go directly to the plugin developer; Starrina Web does not take any percentage. However, the chosen funding platform might have its own fees.": "你的全部捐款将直接给到插件开发者，Starrina Web 不会收取任何比例。但众筹平台可能会有服务费、抽成。",
 	"Youtube": "YouTube",
 	"Youtube Loader Settings": "YouTube 爬取设置"
