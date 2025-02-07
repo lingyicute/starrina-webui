@@ -59,7 +59,7 @@
 						</Tooltip>
 
 						<a
-							href="https://github.com/open-webui/open-webui/releases/tag/v{version.latest}"
+							href="https://github.com/lingyicute/starrina-webui/releases/tag/v{version.latest}"
 							target="_blank"
 						>
 							{updateAvailable === null
@@ -127,7 +127,7 @@
 				/>
 			</a>
 
-			<a href="https://github.com/open-webui/open-webui" target="_blank">
+			<a href="https://github.com/lingyicute/starrina-webui" target="_blank">
 				<img
 					alt="Github Repo"
 					src="https://img.shields.io/github/stars/open-webui/open-webui?style=social&label=Star us on Github"

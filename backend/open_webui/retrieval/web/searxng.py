@@ -67,7 +67,7 @@ def search_searxng(
     response = requests.get(
         query_url,
         headers={
-            "User-Agent": "Starrina Web (https://github.com/open-webui/open-webui) RAG Bot",
+            "User-Agent": "Starrina Web (https://github.com/lingyicute/starrina-webui) RAG Bot",
             "Accept": "text/html",
             "Accept-Encoding": "gzip, deflate",
             "Accept-Language": "en-US,en;q=0.5",
