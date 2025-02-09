@@ -29,8 +29,6 @@
 	import { slide } from 'svelte/transition';
 	import { quintOut } from 'svelte/easing';
 
-	import ChevronUp from '../icons/ChevronUp.svelte';
-	import ChevronDown from '../icons/ChevronDown.svelte';
 	import Spinner from './Spinner.svelte';
 
 	export let open = false;
@@ -90,14 +88,6 @@
 						{title}
 					{/if}
 				</div>
-
-				<div class="flex self-center translate-y-[1px]">
-					{#if open}
-						<ChevronUp strokeWidth="3.5" className="size-3.5" />
-					{:else}
-						<ChevronDown strokeWidth="3.5" className="size-3.5" />
-					{/if}
-				</div>
 			</div>
 		</div>
 	{:else}
@@ -114,22 +104,25 @@
 			<div>
 				<slot />
 
-				{#if grow}
-					{#if open && !hide}
-						<div
-							transition:slide={{ duration: 300, easing: quintOut, axis: 'y' }}
-							on:pointerup={(e) => {
-								e.stopPropagation();
-							}}
-						>
-							<slot name="content" />
-						</div>
-					{/if}
-				{/if}
+{#if attributes?.type !== 'reasoning'}
+	{#if grow}
+		{#if open && !hide}
+			<div
+				transition:slide={{ duration: 300, easing: quintOut, axis: 'y' }}
+				on:pointerup={(e) => {
+					e.stopPropagation();
+				}}
+			>
+				<slot name="content" />
+			</div>
+		{/if}
+	{/if}
+{/if}
 			</div>
 		</div>
 	{/if}
 
+{#if attributes?.type !== 'reasoning'}
 	{#if !grow}
 		{#if open && !hide}
 			<div transition:slide={{ duration: 300, easing: quintOut, axis: 'y' }}>
@@ -137,4 +130,5 @@
 			</div>
 		{/if}
 	{/if}
+{/if}
 </div>
