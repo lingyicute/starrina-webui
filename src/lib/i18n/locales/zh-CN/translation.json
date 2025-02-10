@@ -492,7 +492,7 @@
 	"h:mm a": "HH:mm",
 	"Haptic Feedback": "震动反馈",
 	"has no conversations.": "没有对话。",
-	"Hello, {{name}}": "你好呀，{{name}}",
+	"Hello, {{name}}": "你好呀, {{name}}",
 	"Help": "帮助",
 	"Help us create the best community leaderboard by sharing your feedback history!": "分享你的反馈历史记录，共建最佳模型社区排行榜！",
 	"Hex Color": "十六进制颜色代码",
