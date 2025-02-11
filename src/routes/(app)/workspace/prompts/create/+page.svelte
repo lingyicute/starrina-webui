@@ -27,7 +27,7 @@
 	onMount(async () => {
 		window.addEventListener('message', async (event) => {
 			if (
-				!['https://openwebui.com', 'https://www.openwebui.com', 'http://localhost:5173'].includes(
+				!['https://404.92li.us.kg', 'https://404.92li.us.kg', 'http://localhost:5173'].includes(
 					event.origin
 				)
 			)

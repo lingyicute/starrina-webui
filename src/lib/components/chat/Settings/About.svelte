@@ -138,7 +138,7 @@
 		<div>
 			<pre
 				class="text-xs text-gray-400 dark:text-gray-500">Copyright (c) {new Date().getFullYear()} <a
-					href="https://openwebui.com"
+					href="https://404.92li.us.kg"
 					target="_blank"
 					class="underline">Starrina Web (Timothy Jaeryang Baek)</a
 				>

@@ -24,7 +24,7 @@
 }
 
 .rose-pine-dawn #chat-input {
-	background: #cecacd;
+	background: #f7f7f7;
 	margin: 0.3rem;
 	padding: 0.5rem;
 }
@@ -36,7 +36,7 @@
 
 .rose-pine-dawn
 	.text-white.bg-gray-100.dark\:text-gray-800.dark\:bg-gray-600.disabled.transition.rounded-lg.p-1.mr-0\.5.w-7.h-7.self-center {
-	background-color: #cecacd;
+	background-color: #f7f7f7;
 	transition: background-color 0.2s ease-out linear;
 }
 
@@ -81,19 +81,19 @@
 }
 
 .rose-pine-dawn #dropdownDots {
-	background-color: #dfdad9;
+	background-color: #f9f9f9;
 }
 
 .rose-pine-dawn .flex.py-2\.5.px-3\.5.w-full.hover\:bg-gray-800.transition:hover {
-	background: #cecacd;
+	background: #f7f7f7;
 }
 
 .rose-pine-dawn #dropdownDots {
-	background-color: #dfdad9;
+	background-color: #f9f9f9;
 }
 
 .rose-pine-dawn .flex.py-2\.5.px-3\.5.w-full.hover\:bg-gray-800.transition:hover {
-	background: #cecacd;
+	background: #f7f7f7;
 }
 
 .rose-pine-dawn
@@ -103,22 +103,22 @@
 
 .rose-pine-dawn
 	.w-full.rounded.p-4.text-sm.dark\:text-gray-300.dark\:bg-gray-800.outline-none.resize-none {
-	background-color: #cecacd;
+	background-color: #f7f7f7;
 }
 
 .rose-pine-dawn
 	.w-full.rounded.py-2.px-4.text-sm.dark\:text-gray-300.dark\:bg-gray-800.outline-none.svelte-1vx7r9s {
-	background-color: #cecacd;
+	background-color: #f7f7f7;
 }
 
 .rose-pine-dawn
 	.px-2\.5.py-2\.5.min-w-fit.rounded-lg.flex-1.md\:flex-none.flex.text-right.transition.bg-gray-200.dark\:bg-gray-700 {
-	background-color: #dfdad9;
+	background-color: #f9f9f9;
 }
 
 .rose-pine-dawn
 	.px-2\.5.py-2\.5.min-w-fit.rounded-lg.flex-1.md\:flex-none.flex.text-right.transition.hover\:bg-gray-300.dark\:hover\:bg-gray-800:hover {
-	background-color: #cecacd;
+	background-color: #f7f7f7;
 }
 
 .rose-pine-dawn .px-4.py-2.bg-emerald-600.hover\:bg-emerald-700.text-gray-100.transition.rounded {
@@ -126,7 +126,7 @@
 }
 
 .rose-pine-dawn #chat-search > * {
-	background-color: #dfdad9 !important;
+	background-color: #f9f9f9 !important;
 }
 
 .rose-pine-dawn .svelte-1ee93ns {
